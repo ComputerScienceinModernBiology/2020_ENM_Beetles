@@ -1,0 +1,35 @@
+Thu Jul 16 16:48:13 CDT 2020
+MaxEnt version 3.4.1
+Reading file absence
+readGrid: max memory 518979584, total allocated 16318464, free 6266424, used 10052040, increment -3082528
+Reading samples from presence
+Read samples: max memory 518979584, total allocated 16318464, free 6579848, used 9738616, increment -313424
+Adding samples to background in feature space
+Command line used:  autorun -e MaxEnt_Geo/absence -o MaxEnt_Geo -s MaxEnt_Geo/presence -z
+Command line to repeat: java density.MaxEnt nowarnings noprefixes outputdirectory=MaxEnt_Geo samplesfile=MaxEnt_Geo/presence environmentallayers=MaxEnt_Geo/absence autorun novisible
+Species: species
+Layers: bio01nz bio05nz bio06nz bio12nz bio13nz bio14nz
+Layertypes: Continuous Continuous Continuous Continuous Continuous Continuous
+outputdirectory: MaxEnt_Geo
+samplesfile: MaxEnt_Geo/presence
+environmentallayers: MaxEnt_Geo/absence
+autorun: true
+visible: false
+
+getSamples: max memory 518979584, total allocated 16318464, free 6121408, used 10197056, increment 458440
+Making features
+makeFeatures: max memory 518979584, total allocated 16318464, free 5759784, used 10558680, increment 361624
+species: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 518979584, total allocated 16318464, free 4803632, used 11514832, increment 956152
+linearPredictor: max memory 518979584, total allocated 16318464, free 4803632, used 11514832, increment 0
+FeaturedSpace: max memory 518979584, total allocated 16318464, free 4803632, used 11514832, increment 0
+Sequential: max memory 518979584, total allocated 16318464, free 4803632, used 11514832, increment 0
+Initial loss: 6.984716320118266
+420: time = 0.961000 loss = 6.100076
+Time since start: 1.001
+Resulting gain: 0.8846401737658551
+Projecting...
+Writing file MaxEnt_Geo\species.csv
+Ending
